@@ -25,6 +25,8 @@ from star
 left join star
 """
 
+curdoc().title = "Group View"
+
 source = ColumnDataSource(data=dict(
     ra=[], dec=[], color=[], gMag=[]
     ))
